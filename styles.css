@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+
+	font-family: Anton;
+	color: #eee;
+}
+
+body{
+	background: #2a2a2a;
+}
+
+header{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	text-shadow: 10px black;
+
+	background: #1a1a1a;
+
+	box-shadow: 0px 0px 30px black;
+}
+
+.puntajes{
+	margin-top: 5em;
+	margin-bottom: 5em;
+
+	text-align: center;
+
+	border: 1px green solid;
+	border-radius: 15px;
+
+	width: 20%;
+
+	margin-left: 40%;
+
+	box-shadow: 0px 0px 20px #111;
+}
+
+.puntos{
+	font-size: 40px;
+
+	transition: 1s;
+}
+
+.puntos > p{
+	display: inline-block;
+	
+	transition: 1s;
+}
+
+.porcentaje{
+	font-size: 30px;
+	color: white;
+	text-shadow: 0px 0px 3px white;
+}
+
+.porcentaje > p {
+	display: inline-block;
+
+	transition: 1s;
+}
+
+.puertas{
+	width: 100%;
+	text-align: center;
+}
+
+.puerta{
+	display: inline-block;
+	min-width: 180px;
+	min-height: 300px;
+	max-width: 180px;
+	max-height: 300px;
+
+	margin: 0 90px;
+
+	border: solid 5px #422900;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px #111;
+
+	background: #917a56;
+
+	cursor: pointer;
+
+	font-size: 30px;
+	text-align: center;
+
+	transition: 1s;
+}
+
+#mensaje{
+	margin-top: 50px;
+
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 0px 0px 15px #111;
+
+	transition: 1s;
+}
+
+.correcto{
+	color: #26b54d;
+	text-shadow: 0px 0px 1em #26b54d;
+}
+
+.correcto-puerta{
+	box-shadow: 0px 0px 1em #26b54d;
+}
+
+.incorrecto{
+	color: #b52626;
+	text-shadow: 0px 0px 1em #b52626;
+}
+
+.incorrecto-puerta{
+	box-shadow: 0px 0px 1em #b52626;
+}
